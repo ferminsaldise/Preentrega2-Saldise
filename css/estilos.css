@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-header{
+    height: 10%;
+}
+.header__principal{
+    background-color: rgb(222, 184, 135) ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+   
+    
+}
+
+.header__principal img{
+    width: 100px;
+}
+
+
+.header__principal ul{  
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+    list-style: none;  
+    flex-wrap: wrap; 
+}
+
+.header__principal ul a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;   
+    /* agregar fuente y modificar el tamaño*/
+}
+
+.header__principal ul a:hover{
+    background-color: chocolate;
+    border-radius: 5px;
+}
+/* aca empieza*/
+.foto-inicio img{
+    display: flex;
+    width: 100%;
+    height: 50%;
+   
+   
+}
+
+.texto-inicio{
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-inicio p{
+    color: white;
+    font-size: 20px;
+}
+
+#elegirnos{
+    margin: 30px;
+    
+    
+}
+
+#elegirnos h2{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#elegirnos p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#elegirnos-card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 300px;
+    margin: 100px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 10px;
+}
+
+.card-img img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.card-body h2{
+    text-align: center;
+}
+
+
+
+.card-body p{
+    text-align:center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.desarrollado{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(50, 54, 100);
+    color: white;
+ 
+}
+.nombre-cabaña{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 28, 51);
+    color: white;
+    
+}
+/*aca termina inicio*/
+
+/*aca empieza servicios*/
+.main__servicios{
+    background-color: rgb(223, 223, 223);
+
+}
+
+.titulo__servicios{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.servicios{
+    text-align: center;
+    padding: 15px; 
+}
+.servicios h2{
+    margin: 10px;
+
+}
+
+/* align-content para muchos renglones*/
+
+.servicios_lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    
+}
+
+.servicios_lista ul{
+    list-style: none;
+    padding: 25px;
+    background-color: rgb(223, 223, 223);
+}
+
+.servicios_lista ul li{
+    padding: 15px;
+    background-color: rgba(245, 166, 63, 0.815);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.imagenes-servicios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenes-servicios-individual{
+    width: 300px;
+    border-radius: 10px;
+    margin: 25px;
+}
+.imagenes-servicios-individual img{
+    width: 100%;
+    margin-bottom: 25px;
+    height: 200px;
+}´
+/*aca termina servicios*/
+
+
+/* aca empieza estilos cabañas*/
+
+.titulo__principal{
+    padding: 100px;
+}
+.titulo__principal-h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+.parrafo-principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.contenedor-tajetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta-cabaña{
+    width: 300px;
+    margin: 50px;
+    background-color: rgb(233, 194, 149);
+    border-radius: 10px;
+
+}
+
+.imagen-tarjeta-cabaña img{
+    width: 100%;
+}
+
+.tarjeta-cabaña:hover{
+   zoom: 110% ;
+   width: 17%;
+}
+
+.contenido-tarjeta-cabaña{
+    text-align: center;
+}
+/*aca termina Las cabañas*/
+
+/*aca empieza reseñas*/
+
+.titulo__principal-reseña{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.parrafo-reseña{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(255, 215, 163);
+    margin-top: 20px;
+
+}
+
+.tarjeta-reseña{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 100px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(243, 243, 240);
+    padding: 25px;
+
+}
+
+.tarjerta-reseña-logo img{
+    height: 140px;
+    width: 100%;
+}
+    
+.tajeta-reseña-texto{
+text-align: center;
+}
+
+.tajeta-reseña-texto h2{
+    font-size: 40px;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 215, 163);
+}
+.contenedor3 img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.testimonios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/*aca termina reseñas*/
+
+/* aca empieza contato*/
+
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+    border: 5px;
+    border-style: solid;
+    background-color: rgb(189, 149, 135);    
+    padding: 10px;
+    
+} 
+
+
+.contacto-redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    
+}
+
+.contenido-contacto{
+    text-align: center;
+}
+
+.contactanos{
+   
+    text-align: center;
+    margin-bottom: 25px;
+}
+ 
+.form{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+    flex-wrap: wrap;
+    
+}
+
+
+.contenido-formulario{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+.texto{
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*pruebas mediaqueris*/
+@media screen and (max-width: 414px) {
+    .header__principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #elegirnos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #elegirnos p{
+        text-align: center;
+        
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo__servicios{
+        padding-top: 150px;
+    }
+
+    .titulo__principal{
+        padding-top: 50px;
+    }
+    .parrafo-principal{
+        text-align: center;
+    }
+    .titulo__principal-reseña{
+        padding-top: 120px;
+        text-align: center;
+    }
+    .parrafo-reseña{
+        text-align: center;
+    }
+}
+
