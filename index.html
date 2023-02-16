@@ -8,25 +8,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../PreEtrega1+Saldise/css/estilos.css">
 
 </head>
 <body>
 
     <header>
-        <div class="header__principal">
-            <img class="logo-header" src="imagenes/logo.png" alt="logo" href="">
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Incio</a></li>
-                    <li><a href="paginas/servicios.html">Servicios</a></li>
-                    <li><a href="paginas/lascabañas.html">Las cabañas</a></li>
-                    <li><a href="paginas/reseñas.html">Reseñas</a></li>
-                    <li><a href="paginas/contactanos.html          ">Contactanos</a></li>
+        <section class="header">
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand nav-item"  href="#">
+                CABAÑAS LAVANDA
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">     
+                  <li class="nav-item">
+                    <a class="paginas" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="paginas" href="paginas/lascabañas.html">Las cabañas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="paginas" href="paginas/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="paginas" href="paginas/reseñas.html">Actividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="paginas" href="paginas/contactanos.html">Contactanos</a>
+                  </li>
                 </ul>
+              </div>
+            </div>
             </nav>
-        </div>
-
+        </section>
     </header>
 
     <main>
@@ -46,37 +65,46 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum quae officia nostrum accusantium mollitia enim et dolor, inventore assumenda voluptate voluptatum esse exercitationem. Voluptatem tempore nemo dolores alias ea.</p>
         </section>
         
-            <div class="container">
-                <div class="cards">
-                    <div class="card-img">
-                        <img src="imagenes/logo-entorno.png" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h2>El Entorno</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
-                    </div>
+        <section class="tarjetas-elegirnos">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-1">
+                    <div class="cards-custom">
+                      <div class="card-img">
+                          <img src="imagenes/logo-entorno.png" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h2>El Entorno</h2>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-1">
+                    <div class="cards-custom">
+                      <div class="card-img">
+                          <img src="imagenes/ubicacion.png" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h2>El Entorno</h2>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-1">
+                    <div class="cards-custom">
+                      <div class="card-img">
+                          <img src="imagenes/588a666dd06f6719692a2d18.png" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h2>El Entorno</h2>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
+                      </div>
+                  </div>
+                  </div>
                 </div>
-
-                <div class="cards">
-                    <div class="card-img">
-                        <img src="imagenes/ubicacion.png" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h2>La Ubicacion</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="card-img">
-                        <img src="imagenes/588a666dd06f6719692a2d18.png" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h2>Nuestras Cabañas</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis a pariatur deleniti excepturi, sapiente labore ullam voluptas accusamus animi veritatis quam error hic necessitatibus iste, maiores assumenda ab! Odio!</p>
-                    </div>
-                </div>
-            </div>
+              </div> 
+        </section>
+           
        
     </main>
     
@@ -93,6 +121,6 @@
         
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

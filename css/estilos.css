@@ -2,46 +2,24 @@
     margin: 0;
     padding: 0;
 }
-
-.logo-header{
-    height: 10%;
-}
-.header__principal{
-    background-color: rgb(222, 184, 135) ;
-    width: 100%;
+.navbar-brand{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-   
+    justify-content: center;
+    
+}
+.nav-item a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+  
+}
+.header{
+    background-image: linear-gradient(to right, #de6262 , #ffb88c);
     
 }
 
-.header__principal img{
-    width: 100px;
-}
 
-
-.header__principal ul{  
-    display: flex;
-    padding: 20px;
-    justify-content:center;
-    list-style: none;  
-    flex-wrap: wrap; 
-}
-
-.header__principal ul a{
-    text-decoration: none;
-    padding: 15px;
-    color: black;   
-    /* agregar fuente y modificar el tamaño*/
-}
-
-.header__principal ul a:hover{
-    background-color: chocolate;
-    border-radius: 5px;
-}
 /* aca empieza*/
 .foto-inicio img{
     display: flex;
@@ -84,19 +62,12 @@
 
 }
 
-#elegirnos-card div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
-.cards{
-    width: 300px;
+.cards-custom{
+    width: 250px;
     margin: 100px;
     background-color: rgb(216, 215, 215);
     border-radius: 10px;
@@ -108,14 +79,6 @@
 }
 .card-body h2{
     text-align: center;
-}
-
-
-
-.card-body p{
-    text-align:center;
-    margin-bottom: 10px;
-    padding: 10px;
 }
 
 .desarrollado{
@@ -426,3 +389,18 @@ text-align: center;
     }
 }
 
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-item a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+  
+}
+.header{
+    background-image: linear-gradient(to right, #de6262 , #ffb88c);
+}
