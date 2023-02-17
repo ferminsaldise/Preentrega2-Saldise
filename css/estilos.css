@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .navbar-brand{
     display: flex;
     justify-content: center;
@@ -16,6 +18,8 @@
 }
 .header{
     background-image: linear-gradient(to right, #de6262 , #ffb88c);
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -43,9 +47,22 @@
 
 #elegirnos{
     margin: 30px;
-    
+    animation-duration: 3s;
+    animation-name: slidein;
     
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 99%;
+      width: 99%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 99%;
+    }
+  }
 
 #elegirnos h2{
     text-align: center;
@@ -77,6 +94,9 @@
     width: 100%;
     margin-bottom: 25px;
 }
+
+
+
 .card-body h2{
     text-align: center;
 }
@@ -176,6 +196,12 @@
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    font-size: 23px;
+    text-align: center;
+    background-color: #c7c7c7;
+    margin-left: 100px;
+    margin-right:   100px;
+    border-radius: 15px;
 }
 
 .contenedor-tajetas{
@@ -206,7 +232,7 @@
 }
 /*aca termina Las cabañas*/
 
-/*aca empieza reseñas*/
+/*aca empieza actividades*/
 
 .titulo__principal-reseña{
     display: flex;
@@ -219,62 +245,38 @@
     justify-content: center;
     margin-top: 25px;
 }
-.contenedor2{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: rgb(255, 215, 163);
-    margin-top: 20px;
-
-}
-
-.tarjeta-reseña{
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    margin: 100px;
-    border-radius: 10px;
-    align-items: center;
-    background-color: rgb(243, 243, 240);
+.actividades-complejo{
+    margin: 25px;
+    border: 2px black solid;
     padding: 25px;
-
-}
-
-.tarjerta-reseña-logo img{
-    height: 140px;
-    width: 100%;
-}
-    
-.tajeta-reseña-texto{
-text-align: center;
-}
-
-.tajeta-reseña-texto h2{
-    font-size: 40px;
-}
-
-.contenedor3{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: rgb(255, 215, 163);
-}
-.contenedor3 img{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.testimonios{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    background-color: #ffc9a8;
     
 }
 
-/*aca termina reseñas*/
+.presentacion-actividades{
+    text-align: center;
+}
+.listado-actividades{
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+.listado-actividades li{
+    padding: 10px;
+   
+}
+.imagenes-actividades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+    
+
+
+/*aca termina actividades*/
 
 /* aca empieza contato*/
 
@@ -375,7 +377,8 @@ text-align: center;
     }
 
     .titulo__principal{
-        padding-top: 50px;
+        padding-top: 25px;
+        background-color: #c7c7c7;
     }
     .parrafo-principal{
         text-align: center;
@@ -387,12 +390,25 @@ text-align: center;
     .parrafo-reseña{
         text-align: center;
     }
+
+    .footer{
+        text-align: center;
+    }
 }
+
+/*termina mediaqueris*/
 
 .navbar-brand{
     display: flex;
     justify-content: center;
     
+}
+.nav-item{
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-item:hover{
+    background-color: #de6262;
 }
 .nav-item a{
     padding: 10px;
