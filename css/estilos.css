@@ -79,9 +79,13 @@
 
 }
 
+.tarjetas-elegirnos{
+    background-image: linear-gradient(to bottom, white,rgb(50, 54, 100));
+}
 .container{
     display: flex;
     justify-content: center;
+   
 }
 .cards-custom{
     width: 250px;
@@ -128,6 +132,19 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    animation-duration: 3s;
+    animation-name: tituloaparece;
+    animation-iteration-count: 1;
+}
+
+@keyframes tituloaparece{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
 }
 .servicios{
     text-align: center;
@@ -185,12 +202,12 @@
 
 .titulo__principal{
     padding: 100px;
+
 }
 .titulo__principal-h1{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    
+    padding-top: 100px; 
 }
 .parrafo-principal{
     display: flex;
@@ -215,6 +232,7 @@
     margin: 50px;
     background-color: rgb(233, 194, 149);
     border-radius: 10px;
+    transition: scala 2s;
 
 }
 
@@ -223,8 +241,8 @@
 }
 
 .tarjeta-cabaña:hover{
-   zoom: 110% ;
-   width: 17%;
+  transform: scale(1.2,1.2);
+  
 }
 
 .contenido-tarjeta-cabaña{
