@@ -280,28 +280,6 @@
 
 /* aca empieza contato*/
 
-.mapa{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-    margin-top: 50px;
-    border: 5px;
-    border-style: solid;
-    background-color: rgb(189, 149, 135);    
-    padding: 10px;
-    
-} 
-
-
-.contacto-redes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 50px;
-   
-}
 .formulario{
     display: flex;
     flex-direction: column;
@@ -419,4 +397,26 @@
 }
 .header{
     background-image: linear-gradient(to right, #de6262 , #ffb88c);
+}
+
+.mapa-ubicacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25px;
+}
+.tarjeta-contacto{
+    width: 300px;
+    margin: 50px;
+    
+    border-radius: 10px;
+
+}
+
+.imagen-tarjeta-contacto img{
+    width: 100%;
+}
+
+.contenido-tarjeta-contacto{
+    text-align: center;
 }
