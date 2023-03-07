@@ -1,0 +1,58 @@
+/*ACA EMPIEZA CONTACTO*/
+$background-color_1: lightslategray;
+
+.mapa-ubicacion {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 25px;
+}
+.tarjeta-contacto {
+	width: 300px;
+	margin: 50px;
+	border-radius: 10px;
+}
+.imagen-tarjeta-contacto {
+	img {
+		width: 100%;
+	}
+}
+.contenido-tarjeta-contacto {
+	text-align: center;
+}
+.formulario {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: $background-color_1;
+}
+.contenido-contacto {
+	text-align: center;
+}
+.contactanos {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.contenido-formulario {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.boton {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+.texto {
+	text-align: center;
+	padding: 5px;
+}
+
+/*ACA TERMINA CONTACTO*/

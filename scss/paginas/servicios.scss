@@ -1,0 +1,74 @@
+/*ACA EMPIEZA SERVICIOS*/
+
+
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: #dfdfdf;
+$background-color_2: #f5a63fd0;
+
+@keyframes tituloaparece {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+/* align-content para muchos renglones*/
+.main__servicios {
+	background-color: $background-color_1;
+}
+.titulo__servicios {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	animation-duration: 3s;
+	animation-name: tituloaparece;
+	animation-iteration-count: 1;
+}
+.servicios {
+	text-align: center;
+	padding: 15px;
+	P {
+		
+		font-size: 23PX;
+	}
+	h2 {
+		margin: 10px;
+	}
+}
+.servicios_lista {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 25px;
+	ul {
+		list-style: none;
+		padding: 25px;
+		background-color: $background-color_1;
+		li {
+			padding: 15px;
+			background-color: $background-color_2;
+			font-size: 20px;
+			border-radius: 20px;
+			margin: 5px;
+		}
+	}
+}
+.imagenes-servicios {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    
+}
+.imagenes-servicios-individual {
+	width: 300px;
+	border-radius: 10px;
+	margin: 25px;
+	img {
+		width: 100%;
+		margin-bottom: 25px;
+		height: 200px;
+	}
+}
+
+/*ACA TERMINA SERVICIOS*/

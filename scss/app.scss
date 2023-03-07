@@ -1,0 +1,25 @@
+/*ESTA VA SER NUESTRA HOJA MAESTRA Y ACA IMPORTAMOS LAS OTRAS HOJAS. */ 
+
+//general (tipografias y colores arriba del todo)
+@import "./general/colores.scss";
+@import "./general/tipografias.scss";
+
+
+
+//importo hojas del layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+
+
+
+
+
+
+//aca importo las paginas de mi sitio, index,servicios...
+@import "./paginas/index.scss";
+@import "./paginas/las-cabañas.scss";
+@import "./paginas/servicios.scss";
+@import "./paginas/actividades.scss";
+@import "./paginas/contacto.scss";
+

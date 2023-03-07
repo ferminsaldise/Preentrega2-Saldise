@@ -1,0 +1,23 @@
+.header{
+    background-image: $nav-color;
+    position: fixed;
+    width: 100%;;
+        .navbar-brand{
+            display: flex;
+            justify-content: center; 
+        }
+        .nav-item{
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .nav-item:hover{
+            background-color: #de6262;
+        }
+        .nav-item a{
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+          
+        }
+}

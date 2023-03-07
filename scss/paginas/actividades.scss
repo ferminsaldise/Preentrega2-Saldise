@@ -1,0 +1,40 @@
+/*ACA EMPIEZA LAS ACTIVIDADES*/
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: #ffc9a8;
+
+.titulo__principal-reseña {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.parrafo-reseña {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	font-size: 23PX;
+}
+.actividades-complejo {
+	margin: 25px;
+	border: 2px black solid;
+	padding: 25px;
+	background-color: $background-color_1;
+}
+.presentacion-actividades {
+	text-align: center;
+}
+.listado-actividades {
+	list-style: none;
+	text-align: center;
+	li {
+		padding: 10px;
+	}
+}
+.imagenes-actividades {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*ACA TERMINA LAS ACTIVIDADES*/

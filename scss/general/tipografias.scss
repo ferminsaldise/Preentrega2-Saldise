@@ -1,0 +1,16 @@
+// importamos desde google fonts las fuestes con @import q nos da google
+
+
+//si quiero q todos los h1 tengan una fuente lo pongo aca y etc
+
+@for $i from 4 to 11{
+    .fontsize-#{$i}{
+        font-size: 4px*$i;
+    }
+}
+
+@each $typo in 'Montserrat', sans-serif{
+    .font-family-#{$typo}{
+        font-family: $typo;
+    }
+}

@@ -1,0 +1,61 @@
+/*ACA EMPIEZA LAS CABAÑAS*/
+
+
+
+
+
+@for $i from 4 to 11{
+    .fontsize-#{$i}{
+        font-size: 4px*$i;
+    }
+}
+
+
+
+main{
+	background-color: map-get($map: $bk-colores-cabanas, $key: bk-3);
+}
+.titulo__principal {
+	padding: 100px;
+}
+.titulo__principal-h1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	text-align: center;
+}
+.parrafo-principal {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	font-size: 23px;
+	text-align: center;
+	background-color: map-get($map: $bk-colores-cabanas, $key: bk-1);
+	border-radius: 15px;
+	
+}
+.contenedor-tajetas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.tarjeta-cabaña {
+	width: 300px;
+	margin: 50px;
+	background-color: map-get($map: $bk-colores-cabanas, $key: bk-2 );
+	border-radius: 10px;
+	transition: scala 2s;
+	&:hover {
+		transform: scale(1.2,1.2);
+	}
+}
+.imagen-tarjeta-cabaña {
+	img {
+		width: 100%;
+	}
+}
+.contenido-tarjeta-cabaña {
+	text-align: center;
+}
+
+/*ACA TERMINA LAS CABAÑAS*/

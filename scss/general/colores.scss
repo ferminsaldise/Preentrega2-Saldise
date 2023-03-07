@@ -1,0 +1,15 @@
+
+//aca puedo declarar variables de colores por si despues quiero cambiarlos y q sea mas facil
+
+
+//las variables nunca pueden tener espacios, las separo con -
+$nav-color: linear-gradient(to right, #de6262 , #ffb88c);
+
+@each $color in rgb(51, 55, 97),rgb(26, 28, 51){
+    .bk-footer#{$color}{
+        background-color: $color;
+    }
+}
+$bk-colores-cabanas:(bk-1:#c7c7c7, bk-2:#e9c295,bk-3:#dfdfdf);
+$footer-color:(f1-color:rgb(51, 55, 97), f2-color:rgb(26, 28, 51));
+

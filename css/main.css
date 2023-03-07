@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/*ESTA VA SER NUESTRA HOJA MAESTRA Y ACA IMPORTAMOS LAS OTRAS HOJAS. */
+.bk-footer#333761 {
+  background-color: #333761; }
+
+.bk-footer#1a1c33 {
+  background-color: #1a1c33; }
+
+.fontsize-4 {
+  font-size: 16px; }
+
+.fontsize-5 {
+  font-size: 20px; }
+
+.fontsize-6 {
+  font-size: 24px; }
+
+.fontsize-7 {
+  font-size: 28px; }
+
+.fontsize-8 {
+  font-size: 32px; }
+
+.fontsize-9 {
+  font-size: 36px; }
+
+.fontsize-10 {
+  font-size: 40px; }
+
+.font-family-Montserrat {
+  font-family: "Montserrat"; }
+
+.font-family-sans-serif {
+  font-family: sans-serif; }
+
+.header {
+  background-image: linear-gradient(to right, #de6262, #ffb88c);
+  position: fixed;
+  width: 100%; }
+  .header .navbar-brand {
+    display: flex;
+    justify-content: center; }
+  .header .nav-item {
+    padding: 5px;
+    border-radius: 10px; }
+  .header .nav-item:hover {
+    background-color: #de6262; }
+  .header .nav-item a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px; }
+
+/* ACA VA TODO LO Q TENGO Q COPIAR Y PEGAR DEL CSS*/
+.footer .desarrollado {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #333761;
+  color: white; }
+
+.footer .nombre-cabaña {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1c33;
+  color: white; }
+
+/*ACA EMPIEZA EL INDEX*/
+#foto__principal .foto-inicio img {
+  display: flex;
+  width: 100%;
+  height: 50%; }
+
+#foto__principal .texto-inicio {
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+  #foto__principal .texto-inicio p {
+    color: white;
+    font-size: 20px; }
+
+#elegirnos {
+  margin: 30px;
+  animation-duration: 3s;
+  animation-name: slidein; }
+  #elegirnos h2 {
+    text-align: center;
+    padding: 10px; }
+  #elegirnos p {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+@keyframes slidein {
+  from {
+    margin-left: 99%;
+    width: 99%; }
+  to {
+    margin-left: 0%;
+    width: 99%; } }
+
+.elegir {
+  background-image: linear-gradient(to bottom, white, #323664); }
+  .elegir .contenedor-tarjetas-elegirnos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; }
+    .elegir .contenedor-tarjetas-elegirnos .tarjeta-elegirnos {
+      width: 300px;
+      margin: 50px;
+      border-radius: 10px;
+      background-color: #d8d7d7; }
+      .elegir .contenedor-tarjetas-elegirnos .tarjeta-elegirnos img {
+        width: 100%; }
+    .elegir .contenedor-tarjetas-elegirnos .contenido-tarjeta-elegirnos {
+      text-align: center; }
+
+/*ACA TERMINA EL INDEX*/
+/*ACA EMPIEZA LAS CABAÑAS*/
+.fontsize-4 {
+  font-size: 16px; }
+
+.fontsize-5 {
+  font-size: 20px; }
+
+.fontsize-6 {
+  font-size: 24px; }
+
+.fontsize-7 {
+  font-size: 28px; }
+
+.fontsize-8 {
+  font-size: 32px; }
+
+.fontsize-9 {
+  font-size: 36px; }
+
+.fontsize-10 {
+  font-size: 40px; }
+
+main {
+  background-color: #dfdfdf; }
+
+.titulo__principal {
+  padding: 100px; }
+
+.titulo__principal-h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center; }
+
+.parrafo-principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 23px;
+  text-align: center;
+  background-color: #c7c7c7;
+  border-radius: 15px; }
+
+.contenedor-tajetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.tarjeta-cabaña {
+  width: 300px;
+  margin: 50px;
+  background-color: #e9c295;
+  border-radius: 10px;
+  transition: scala 2s; }
+  .tarjeta-cabaña:hover {
+    transform: scale(1.2, 1.2); }
+
+.imagen-tarjeta-cabaña img {
+  width: 100%; }
+
+.contenido-tarjeta-cabaña {
+  text-align: center; }
+
+/*ACA TERMINA LAS CABAÑAS*/
+/*ACA EMPIEZA SERVICIOS*/
+@keyframes tituloaparece {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+/* align-content para muchos renglones*/
+.main__servicios {
+  background-color: #dfdfdf; }
+
+.titulo__servicios {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  animation-duration: 3s;
+  animation-name: tituloaparece;
+  animation-iteration-count: 1; }
+
+.servicios {
+  text-align: center;
+  padding: 15px; }
+  .servicios P {
+    font-size: 23PX; }
+  .servicios h2 {
+    margin: 10px; }
+
+.servicios_lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px; }
+  .servicios_lista ul {
+    list-style: none;
+    padding: 25px;
+    background-color: #dfdfdf; }
+    .servicios_lista ul li {
+      padding: 15px;
+      background-color: #f5a63fd0;
+      font-size: 20px;
+      border-radius: 20px;
+      margin: 5px; }
+
+.imagenes-servicios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.imagenes-servicios-individual {
+  width: 300px;
+  border-radius: 10px;
+  margin: 25px; }
+  .imagenes-servicios-individual img {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 200px; }
+
+/*ACA TERMINA SERVICIOS*/
+/*ACA EMPIEZA LAS ACTIVIDADES*/
+.titulo__principal-reseña {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; }
+
+.parrafo-reseña {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 23PX; }
+
+.actividades-complejo {
+  margin: 25px;
+  border: 2px black solid;
+  padding: 25px;
+  background-color: #ffc9a8; }
+
+.presentacion-actividades {
+  text-align: center; }
+
+.listado-actividades {
+  list-style: none;
+  text-align: center; }
+  .listado-actividades li {
+    padding: 10px; }
+
+.imagenes-actividades {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*ACA TERMINA LAS ACTIVIDADES*/
+/*ACA EMPIEZA CONTACTO*/
+.mapa-ubicacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 25px; }
+
+.tarjeta-contacto {
+  width: 300px;
+  margin: 50px;
+  border-radius: 10px; }
+
+.imagen-tarjeta-contacto img {
+  width: 100%; }
+
+.contenido-tarjeta-contacto {
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightslategray; }
+
+.contenido-contacto {
+  text-align: center; }
+
+.contactanos {
+  text-align: center;
+  margin-bottom: 25px; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.contenido-formulario {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px; }
+
+.texto {
+  text-align: center;
+  padding: 5px; }
+
+/*ACA TERMINA CONTACTO*/
