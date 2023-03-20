@@ -25,8 +25,10 @@ $background-color_1: #ffc9a8;
 .listado-actividades {
 	list-style: none;
 	text-align: center;
+	background-color: rgb(83, 83, 83);
 	li {
 		padding: 10px;
+		color: white;
 	}
 }
 .imagenes-actividades {

@@ -265,9 +265,11 @@ main {
 
 .listado-actividades {
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  background-color: #535353; }
   .listado-actividades li {
-    padding: 10px; }
+    padding: 10px;
+    color: white; }
 
 .imagenes-actividades {
   display: flex;
@@ -285,10 +287,15 @@ main {
 .tarjeta-contacto {
   width: 300px;
   margin: 50px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .imagen-tarjeta-contacto img {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 25px; }
 
 .contenido-tarjeta-contacto {
   text-align: center; }

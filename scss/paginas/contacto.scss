@@ -11,14 +11,20 @@ $background-color_1: lightslategray;
 	width: 300px;
 	margin: 50px;
 	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .imagen-tarjeta-contacto {
 	img {
 		width: 100%;
+		margin-bottom: 25px;
+		padding: 25px;
 	}
 }
 .contenido-tarjeta-contacto {
 	text-align: center;
+	
 }
 .formulario {
 	display: flex;
